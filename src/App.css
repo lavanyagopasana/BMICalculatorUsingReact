@@ -54,13 +54,8 @@ button:hover {
   background-color: #fff;
   border-radius: 10px;
 }
-@media only screen and (max-width: 412px),
-  only screen and (max-height: 915px),
-  only screen and (min-width: 300px),
-  only screen and (min-height: 800px) {
-  input {
-    width: 300px;
-  }
+@media only screen and (min-height: 700px),
+  only screen and (max-height: 900px) {
   .result {
     width: 350px;
     margin-top: 22px;
